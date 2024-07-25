@@ -1,0 +1,15 @@
+.root {
+    min-height: 100dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 100%;
+}
+
+.paper {
+    box-shadow: var(--mantine-shadow-md);
+    padding: var(--mantine-spacing-md);
+}

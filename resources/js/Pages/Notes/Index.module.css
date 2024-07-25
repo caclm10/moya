@@ -1,0 +1,10 @@
+.root {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text {
+    color: var(--mantine-color-dimmed);
+    font-style: italic;
+}

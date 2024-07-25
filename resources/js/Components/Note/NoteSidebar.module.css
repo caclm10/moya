@@ -1,0 +1,26 @@
+.root {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: rem(320);
+    border-right: 1px solid var(--mantine-color-default-border);
+}
+
+.section {
+    padding: var(--mantine-spacing-sm) var(--mantine-spacing-md) 0;
+}
+
+.brand {
+    font-weight: var(--fw-normal);
+    font-size: var(--mantine-h2-font-size);
+    line-height: var(--mantine-h2-line-height);
+}
+
+.notesSection {
+    margin-top: rem(16);
+}
+
+.notesTitle {
+    font-weight: var(--fw-normal);
+}

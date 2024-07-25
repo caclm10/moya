@@ -1,0 +1,5 @@
+.avatarWrapper {
+    position: relative;
+    border-radius: rem(99999);
+    overflow: hidden;
+}

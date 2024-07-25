@@ -1,0 +1,13 @@
+.root {
+    text-align: center;
+}
+
+.title {
+    font-weight: var(--fw-semibold);
+    line-height: 1;
+}
+
+.description {
+    color: var(--mantine-color-dimmed);
+    font-style: italic;
+}

@@ -1,0 +1,37 @@
+.root {
+    padding: var(--mantine-spacing-md);
+}
+
+.header {
+    padding: var(--mantine-spacing-md);
+    z-index: 10001;
+}
+
+.headerGroup {
+    height: 100%;
+    padding: 0 var(--mantine-spacing-md);
+}
+
+.navbarSection {
+    padding: var(--mantine-spacing-sm) var(--mantine-spacing-md) 0;
+}
+
+.navbarBrand {
+    font-weight: var(--fw-normal);
+    font-size: var(--mantine-h2-font-size);
+    line-height: var(--mantine-h2-line-height);
+}
+
+.navbarNotesSection {
+    margin-top: rem(16);
+}
+
+.navbarNotesHeader {
+    margin-bottom: rem(16);
+    justify-content: space-between;
+}
+
+.navbarNotesTitle {
+    font-weight: var(--fw-normal);
+    line-height: 1;
+}

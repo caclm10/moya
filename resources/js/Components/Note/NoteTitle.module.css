@@ -1,0 +1,14 @@
+.root {
+    /* position: sticky;
+    top: rem(76);
+    background-color: var(--mantine-color-body);
+    z-index: 99; */
+}
+
+.inputRoot {
+    border-bottom: 1px solid var(--mantine-color-default-border);
+}
+
+.input {
+    font-size: var(--mantine-h1-font-size);
+}
