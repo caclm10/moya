@@ -32,7 +32,9 @@ function NoteContent({ ulid, content }: NoteContentProps) {
         }
     }, 600);
 
-    return <BlockNoteView editor={editor} onChange={handleChange} />;
+    return (
+        <BlockNoteView editor={editor} theme="light" onChange={handleChange} />
+    );
 }
 
 export default NoteContent;
