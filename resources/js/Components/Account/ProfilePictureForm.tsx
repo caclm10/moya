@@ -70,7 +70,7 @@ function ProfilePictureForm() {
             />
 
             <Center>
-                <Menu shadow="md">
+                <Menu shadow="md" zIndex={10003}>
                     <Menu.Target>
                         <div className={classes.avatarWrapper}>
                             <Avatar
