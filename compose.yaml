@@ -1,0 +1,27 @@
+services:
+  app:
+    container_name: moya-app
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./:/var/www/app
+      - /var/www/app/vendor
+    depends_on:
+      - db
+
+  db:
+    container_name: moya-db
+    image: mysql:latest
+    environment:
+      MYSQL_ROOT_PASSWORD: ${DB_ROOT_PASSWORD}
+      MYSQL_DATABASE: moya
+      MYSQL_USER: ${DB_USERNAME}
+      MYSQL_PASSWORD: ${DB_PASSWORD}
+    expose:
+      - "3306"
+    volumes:
+      - moya-db:/var/lib/mysql
+
+volumes:
+  moya-db:
